@@ -3,7 +3,7 @@ import PawCards from '../assets/PawCards.png'
 
 function ServiceCard({ service }) {
   return (
-    <div className="flex bg-[#FEF2CB] rounded-3xl p-3 relative h-[110px] md:h-[294px] md:w-[23%] max-w-[282px] md:flex-col md:p-8">
+    <div className="flex bg-[#FEF2CB] rounded-3xl p-3 relative h-[110px] md:h-[294px] md:w-[23%] md:max-w-[282px] md:flex-col md:p-8">
       <div className="flex bg-[#ffffff] rounded-full h-[70px] w-[70px] justify-center md:h-[90px] md:w-[90px] my-auto md:min-h-[90px]">
         <img src={service.img} alt={service.name} className="h-[45px] w-[45px] object-contain self-center md:h-[56px] md:w-[56px]" />
       </div>
